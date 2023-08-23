@@ -1,0 +1,20 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "../scss/variables";
+
+header {
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// @media (max-width: 576px) {
+//   nav {
+//     li {
+//       font-size: 1.5rem;
+//       color: rgb(43, 169, 204) !important;
+//       text-shadow: 2px 2px -4px black !important;
+//     }
+//   }
+// }
